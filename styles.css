@@ -2,9 +2,9 @@
     --primary-bg-color: #94dddd; 
     --card-bg-color: #f5f5f5; 
     --primary-text-color: #333; 
-    --button-bg-color: #007bff;
+    --button-bg-color: #00d9ffc9;
     --button-text-color: #fff; 
-    --hover-bg-color: #0056b3; 
+    --hover-bg-color: #0098b3; 
     --input-bg-color: #f9f9f9; 
     --input-border-color: #ddd; 
     --error-text-color: #e74c3c; 
@@ -98,15 +98,6 @@ button:hover {
 .edit-form input {
     margin-right: 10px;
     width: 40%;
-}
-
-.edit-form button salvar{
-    background-color: #79e9e3;
-    margin-left: 10px;
-}
-
-.edit-form button salvar:hover {
-    background-color: #72d6d1;
 }
 
 .error-message {
