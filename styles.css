@@ -110,21 +110,21 @@ button:hover {
     width: 40%;
 }
 
-.edit-form button-salvar{
+.edit-form button salvar{
     background-color: #28a745;
     margin-left: 10px;
 }
 
-.edit-form button-salvar:hover {
+.edit-form button salvar:hover {
     background-color: #218838;
 }
 
-.edit-form button-remover{
+.edit-form button remover{
     background-color: #d1d4d2;
     margin-left: 10px;
 }
 
-.edit-form button-remover:hover {
+.edit-form button remover:hover {
     background-color: #cfcfcf;
 }
 
