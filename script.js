@@ -25,8 +25,8 @@ function displayUserList() {
                     <div id="options-${user.id}" class="edit-form">
                         <input type="text" id="edit-name-${user.id}" value="${user.name}">
                         <input type="email" id="edit-email-${user.id}" value="${user.email}">
-                        <button onclick="saveUser(${user.id})">Salvar</button>
-                        <button onclick="deleteUser(${user.id})" style="color: red;">Remover</button>
+                        <button class= "salvar" onclick="saveUser(${user.id})">Salvar</button>
+                        <button class= "remover" onclick="deleteUser(${user.id})" style="color: red;">Remover</button>
                     </div>
                 </div>
             `;
