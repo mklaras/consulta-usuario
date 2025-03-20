@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+        #userInfo {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta de Usuários</h1>
+    <input type="number" id="userId" placeholder="Digite o ID do usuário" min="1">
+    <button id="fetchButton">Buscar Usuário</button>
+    <div id="userInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
