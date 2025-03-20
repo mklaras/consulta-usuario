@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta de Usuários</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        input, button {
-            padding: 10px;
-            margin: 10px;
-        }
-        #userInfo {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-    </style>
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Consulta de Usuários</h1>
-    <input type="number" id="userId" placeholder="Digite o ID do usuário" min="1">
-    <button id="fetchButton">Buscar Usuário</button>
-    <div id="userInfo"></div>
+    <div class="container">
+        <h1>Gerenciamento de Usuários</h1>
+
+        <div class="card">
+            <h3>Cadastrar Novo Usuário</h3>
+            <input type="text" id="newName" placeholder="Nome">
+            <input type="email" id="newEmail" placeholder="Email">
+            <button id="addUserButton">Cadastrar</button>
+        </div>
+
+        <div id="userList" class="card">
+            <!-- Lista de usuários será gerada aqui -->
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
