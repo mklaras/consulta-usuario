@@ -1,7 +1,7 @@
 /* Definindo as cores principais */
 :root {
-    --primary-bg-color: #f4f4f4; /* Fundo cinza claro */
-    --card-bg-color: #e68c8c; /* Fundo branco para os cards */
+    --primary-bg-color: #94dddd; /* Fundo cinza claro */
+    --card-bg-color: #f5f5f5; /* Fundo branco para os cards */
     --primary-text-color: #333; /* Cor do texto */
     --button-bg-color: #007bff; /* Cor de fundo do botão */
     --button-text-color: #fff; /* Cor do texto do botão */
@@ -22,7 +22,6 @@ body {
     align-items: center;
     min-height: 100vh;
     color: var(--primary-text-color);
-    text-align: center;
 }
 
 /* Container centralizado */
